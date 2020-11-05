@@ -12,7 +12,7 @@
 	<groupId>com.telefonica.pe</groupId>
 	<artifactId>shaka-offers</artifactId>
 	<version>0.0.1</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>shaka-offers</name>
 	<description>Bid engine router</description>
 
