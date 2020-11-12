@@ -2,18 +2,18 @@ package com.telefonica.so.generated.model;
 
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.telefonica.so.generated.model.ConnectionType;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.telefonica.so.generated.model.ConnectionType;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
-
+import java.io.Serializable;
 import javax.validation.constraints.*;
 /**
  * InternetConnectionCharacteristicType
  */
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.SpringCodegen", date = "2020-10-21T10:59:13.721-05:00")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.SpringCodegen", date = "2020-11-11T17:01:10.478-05:00")
 
-public class InternetConnectionCharacteristicType   {
+public class InternetConnectionCharacteristicType  implements Serializable {
   @JsonProperty("connection")
   private ConnectionType connection = null;
 

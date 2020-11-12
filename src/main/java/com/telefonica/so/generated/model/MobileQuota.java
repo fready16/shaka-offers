@@ -9,19 +9,18 @@ import com.telefonica.so.generated.model.MobileQuotaCharacteristicTypeDataQuota;
 import com.telefonica.so.generated.model.MobileQuotaCharacteristicTypeSmsQuota;
 import com.telefonica.so.generated.model.MobileQuotaCharacteristicTypeVoiceQuota;
 import com.telefonica.so.generated.model.ObjectCharacteristicValueType;
-
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
-
 import java.util.ArrayList;
 import java.util.List;
+import java.io.Serializable;
 import javax.validation.constraints.*;
 /**
  * MobileQuota
  */
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.SpringCodegen", date = "2020-10-21T10:59:13.721-05:00")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.SpringCodegen", date = "2020-11-11T17:01:10.478-05:00")
 
-public class MobileQuota extends ObjectCharacteristicValueType  {
+public class MobileQuota extends ObjectCharacteristicValueType implements Serializable {
   @JsonProperty("voiceQuota")
   private List<MobileQuotaCharacteristicTypeVoiceQuota> voiceQuota = new ArrayList<MobileQuotaCharacteristicTypeVoiceQuota>();
 

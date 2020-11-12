@@ -6,19 +6,18 @@ import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonValue;
 import com.telefonica.so.generated.model.MoneyType;
 import com.telefonica.so.generated.model.QuantityType;
-
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
-
 import java.util.ArrayList;
 import java.util.List;
+import java.io.Serializable;
 import javax.validation.constraints.*;
 /**
  * ProdOfferPriceAlterationType
  */
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.SpringCodegen", date = "2020-10-21T10:59:13.721-05:00")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.SpringCodegen", date = "2020-11-11T17:01:10.478-05:00")
 
-public class ProdOfferPriceAlterationType   {
+public class ProdOfferPriceAlterationType  implements Serializable {
   @JsonProperty("id")
   private String id = null;
 

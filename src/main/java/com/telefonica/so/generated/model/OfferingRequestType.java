@@ -12,19 +12,18 @@ import com.telefonica.so.generated.model.ComposingProductType;
 import com.telefonica.so.generated.model.KeyValueType;
 import com.telefonica.so.generated.model.PenaltyType;
 import com.telefonica.so.generated.model.TimePeriodType;
-
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
-
 import java.util.ArrayList;
 import java.util.List;
+import java.io.Serializable;
 import javax.validation.constraints.*;
 /**
  * OfferingRequestType
  */
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.SpringCodegen", date = "2020-10-21T10:59:13.721-05:00")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.SpringCodegen", date = "2020-11-11T17:01:10.478-05:00")
 
-public class OfferingRequestType   {
+public class OfferingRequestType  implements Serializable {
   @JsonProperty("correlationId")
   private String correlationId = null;
 

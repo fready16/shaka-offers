@@ -1,6 +1,10 @@
 package com.telefonica.so.generated.api;
 
+import com.telefonica.so.generated.model.CategoryRequestType;
+import com.telefonica.so.generated.model.CategoryTreeRefType;
+import com.telefonica.so.generated.model.CategoryType;
 import java.time.OffsetDateTime;
+
 import io.swagger.annotations.*;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -13,14 +17,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RequestPart;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.telefonica.so.generated.model.CategoryRequestType;
-import com.telefonica.so.generated.model.CategoryTreeRefType;
-import com.telefonica.so.generated.model.CategoryType;
-
 import java.util.List;
 import javax.validation.constraints.*;
-
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.SpringCodegen", date = "2020-10-21T10:59:13.721-05:00")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.SpringCodegen", date = "2020-11-11T17:01:10.478-05:00")
 
 @Api(value = "categories", description = "the categories API")
 public interface CategoriesApi {

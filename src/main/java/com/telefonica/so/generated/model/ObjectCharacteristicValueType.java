@@ -8,11 +8,12 @@ import com.fasterxml.jackson.annotation.JsonTypeInfo;
 import com.fasterxml.jackson.annotation.JsonValue;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
+import java.io.Serializable;
 import javax.validation.constraints.*;
 /**
  * ObjectCharacteristicValueType
  */
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.SpringCodegen", date = "2020-10-21T10:59:13.721-05:00")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.SpringCodegen", date = "2020-11-11T17:01:10.478-05:00")
 @JsonTypeInfo(use = JsonTypeInfo.Id.NAME, include = JsonTypeInfo.As.PROPERTY, property = "@type", visible = true )
 @JsonSubTypes({
   @JsonSubTypes.Type(value = MobileQuota.class, name = "MobileQuota"),
@@ -20,7 +21,7 @@ import javax.validation.constraints.*;
   @JsonSubTypes.Type(value = TvPackages.class, name = "TvPackages"),
 })
 
-public class ObjectCharacteristicValueType   {
+public class ObjectCharacteristicValueType  implements Serializable {
   /**
    * type of characteristic information element, defines the format structure of the value information element (string or specific object type)
    */

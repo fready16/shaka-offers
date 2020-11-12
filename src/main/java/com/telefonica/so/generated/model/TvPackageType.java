@@ -2,21 +2,21 @@ package com.telefonica.so.generated.model;
 
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.telefonica.so.generated.model.PackageType;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.telefonica.so.generated.model.PackageType;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
-
 import java.util.ArrayList;
 import java.util.List;
+import java.io.Serializable;
 import javax.validation.constraints.*;
 /**
  * Information for TV type products, providing details on available TV packages
  */
 @ApiModel(description = "Information for TV type products, providing details on available TV packages")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.SpringCodegen", date = "2020-10-21T10:59:13.721-05:00")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.SpringCodegen", date = "2020-11-11T17:01:10.478-05:00")
 
-public class TvPackageType   {
+public class TvPackageType  implements Serializable {
   @JsonProperty("packages")
   private List<PackageType> packages = new ArrayList<PackageType>();
 

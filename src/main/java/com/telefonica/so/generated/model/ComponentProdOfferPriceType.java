@@ -11,20 +11,19 @@ import com.telefonica.so.generated.model.MoneyType;
 import com.telefonica.so.generated.model.ProdOfferPriceAlterationType;
 import com.telefonica.so.generated.model.QuantityType;
 import com.telefonica.so.generated.model.TimePeriodType;
-
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
-
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
+import java.io.Serializable;
 import javax.validation.constraints.*;
 /**
  * ComponentProdOfferPriceType
  */
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.SpringCodegen", date = "2020-10-21T10:59:13.721-05:00")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.SpringCodegen", date = "2020-11-11T17:01:10.478-05:00")
 
-public class ComponentProdOfferPriceType   {
+public class ComponentProdOfferPriceType  implements Serializable {
   @JsonProperty("id")
   private String id = null;
 

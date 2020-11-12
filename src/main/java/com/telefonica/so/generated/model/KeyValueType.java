@@ -5,14 +5,15 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
+import java.io.Serializable;
 import javax.validation.constraints.*;
 /**
  * Key - value pair typically used for extensions or for adding extra data which structure is previously unknown
  */
 @ApiModel(description = "Key - value pair typically used for extensions or for adding extra data which structure is previously unknown")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.SpringCodegen", date = "2020-10-21T10:59:13.721-05:00")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.SpringCodegen", date = "2020-11-11T17:01:10.478-05:00")
 
-public class KeyValueType   {
+public class KeyValueType  implements Serializable {
   @JsonProperty("key")
   private String key = null;
 

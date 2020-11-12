@@ -2,19 +2,19 @@ package com.telefonica.so.generated.model;
 
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.telefonica.so.generated.model.TimePeriodType;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.telefonica.so.generated.model.TimePeriodType;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
-
 import java.time.OffsetDateTime;
+import java.io.Serializable;
 import javax.validation.constraints.*;
 /**
  * CategoryRequestType
  */
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.SpringCodegen", date = "2020-10-21T10:59:13.721-05:00")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.SpringCodegen", date = "2020-11-11T17:01:10.478-05:00")
 
-public class CategoryRequestType   {
+public class CategoryRequestType  implements Serializable {
   @JsonProperty("name")
   private String name = null;
 

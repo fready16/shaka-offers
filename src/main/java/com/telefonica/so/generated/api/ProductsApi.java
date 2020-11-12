@@ -1,6 +1,9 @@
 package com.telefonica.so.generated.api;
 
 import java.time.OffsetDateTime;
+import com.telefonica.so.generated.model.ProductCatalogUpdateType;
+import com.telefonica.so.generated.model.ProductRequestType;
+import com.telefonica.so.generated.model.ProductSpecificationType;
 
 import io.swagger.annotations.*;
 import org.springframework.http.HttpStatus;
@@ -14,14 +17,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RequestPart;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.telefonica.so.generated.model.ProductCatalogUpdateType;
-import com.telefonica.so.generated.model.ProductRequestType;
-import com.telefonica.so.generated.model.ProductSpecificationType;
-
 import java.util.List;
 import javax.validation.constraints.*;
-
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.SpringCodegen", date = "2020-10-21T10:59:13.721-05:00")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.SpringCodegen", date = "2020-11-11T17:01:10.478-05:00")
 
 @Api(value = "products", description = "the products API")
 public interface ProductsApi {
